@@ -1,0 +1,12 @@
+Hatic Velid, redovni student, IB180043
+-----------------------------------------------------------------
+Seminarski rad iz predmeta WRD.
+
+Ideja i kod koristeni za ovaj projekat su u potpunosti orginalni i moji.
+Stranica predstavlja kreativan pristup reklamiranju potencijalne travel agencije. Medutim stranica se naravno moze 
+prilagoditi bilo kojem contetnu.
+
+Kod je poprilicno nesreden i haotican, ali radi. Verzija za mobilne uredaje nije napravljena zbog samog izgleda stranice 
+koji ne dozvoljava prirodno prilagodavanje, te sam odlucio da ostane native za kopjuterske ekrane. 
+
+Osnovna validacija unosa je takoder inkorporirana.

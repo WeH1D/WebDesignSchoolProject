@@ -1,0 +1,372 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("media/background.png");
+    overflow: hidden;
+}
+hr{
+    margin: 25px;
+    opacity: .5;
+}
+#book{
+    width: 60em;
+    height: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    background-color: beige; 
+    border-left: 1.5em solid brown;
+    border-right: 1.5em solid brown;
+    border-top: .7em solid brown;
+    border-bottom: .7em solid brown;
+    box-shadow: 0px 0px 50px 30px black;
+}
+#page1{
+    box-sizing: border-box;
+    z-index: 1;
+    position: relative;
+    top: -100%;
+    width: 50%;
+    height: 100%;
+    background-color: beige;
+    box-shadow: inset  -20px 0px 60px -40px gray, -7px 0px 10px 2px black;
+    border: 10px solid chartreuse;
+    border-right: 0;
+    transition: .5s;
+}
+#page2{
+    box-sizing: border-box;
+    z-index: 1;
+    width: 50%;
+    height: 100%;
+    background-color: beige;
+    position: relative;
+    right: -50%;
+    box-shadow: inset  20px 0px 60px -40px grey, 7px 0px 10px 2px black;
+    border: 10px solid chartreuse;
+    border-left: 0;
+    transition: .5s;
+
+}
+#bookmarks{
+    height: 40em;
+    width: 5em;
+    position: relative;
+    top: -200%;
+    left: 100%;
+}
+.bookmark{
+    height: 18%;
+    width: 40%;
+    background-color: red;
+    margin-top: 20%;
+    position: relative;
+}
+#travel{
+    background-color: chartreuse;
+    position: relative;
+    width: 70px;
+    transition: .5s;
+    z-index: 2;
+}
+#places{
+    background-color: blueviolet;
+    position: relative;
+    width: 40px;
+    transition: .5s;
+    z-index: 2;
+    box-shadow: inset 10px 0px 30px -5px black;
+
+}
+#thoughts{
+    background-color: darkorange;
+    position: relative;
+    width: 40px;
+    transition: .5s;
+    z-index: 2;
+    box-shadow: inset 10px 0px 30px -5px black;
+
+}
+#info{
+    background-color: lightseagreen;
+    position: relative;
+    width: 40px;
+    transition: .5s;
+    z-index: 2;
+    box-shadow: inset 10px 0px 30px -5px black;
+
+}
+#naslov{
+    height: 6em;
+    width: 6em;
+    margin: .5em;
+    float: right;
+    color: white;
+    transform: rotate(90deg);
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px black;
+}
+.stranica{
+  position: relative;
+  width: 96%;
+  height: 95%;
+  top: -300%;
+  left: 2%;
+  z-index: 5;
+  font-family: cursive;
+  color: darkslateblue;
+}
+#h1{
+    font-size: 40px;
+    margin:3%;
+    margin-left: 8%;
+    text-decoration: underline;
+}
+
+/*==============================================================================*/
+
+#travelStr{
+    display: block;
+}
+#tekst1{
+    width: 45%;
+    margin-top: 3%;
+    margin-left: 1%;
+    text-align: justify;
+    font-size: 15px;
+    border: 3px dashed darkslateblue;
+    padding: 5px;
+
+}
+#tekst2{
+    width: 45%;
+    margin-right: 1%;
+    text-align: justify;
+    font-size: 15px;
+    border: 3px dashed darkslateblue;
+    padding: 5px;
+    float: right;
+}
+#img1 img{
+    width: 45%;
+    float: left;
+    margin-left: 3%;
+    transform: rotate(-15deg);
+    margin-top: 2%;
+}
+#img2 img{
+    width: 45%;
+    float: right;
+    margin-top: -30%;
+    transform: rotate(15deg);
+}
+
+/*==============================================================================*/
+
+#placesStr{
+    display: none;
+}
+#img3 img{
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    transform: rotate(-5deg);
+}
+#header1{
+    clear: left;
+    margin-left: 15%;
+    text-decoration: underline;
+    font-size: 30px;
+}
+#tekst3{
+    clear: left;
+    width: 40%;
+    text-align: justify;
+    border: 3px dashed darkslateblue;
+    margin-left: 4%;
+    padding: 5px;
+    margin-top: 3%;
+}
+
+#img4 img{
+    float: right;
+    width: 20%;
+    margin-top: -58%;
+}
+#tekst4{
+    float: right;
+    width: 25%;
+    margin-right: 20%;
+    text-align: justify;
+    margin-top: -55%;
+    border: 3px dashed darkslateblue;
+    padding: 5px;
+}
+#header2{
+    float: right;
+    margin-top: -60%;
+    font-size: 30px;
+    margin-right: 28%;
+    text-decoration: underline;
+
+}
+#img5 img{
+    float: right;
+    width: 25%;
+    margin-top: -30%;
+    margin-right: 23%;
+}
+#tekst5{
+    float: right;
+    width: 20%;
+    text-align: justify;
+    border: 3px dashed darkslateblue;
+    padding: 5px;
+    margin-top: -25%;
+    margin-right: 1%;
+
+}
+#header3{
+    float: right;
+    margin-top: -30%;
+    font-size: 30px;
+    margin-right: 3%;
+    text-decoration: underline;
+}
+
+/*==============================================================================*/
+
+
+#thoughtsStr{
+    display: none;
+}
+.reviewers img{
+    width: 20%;
+    height: 40%;
+    margin: 2%;
+    border: 5px solid darkorange;
+}
+#img6 img{
+    float: left;
+    clear: left;
+    margin-top: 3%;
+
+}
+#img7 img{
+    float: left;
+    clear: left;
+    margin-top: 2%;
+}
+#img8 img{
+    float: right;
+    clear: right;
+    margin-top: -31%;
+}
+#img9 img{
+    float: right;
+    clear: right;
+    margin-top: 2%;
+}
+#tekst6{
+    width: 22%;
+    float: left;
+    text-align: justify;
+    margin-top: 3%;
+    border: 3px dashed darkslateblue;
+    padding: 5px;
+}
+#tekst7{
+    width: 22%;
+    text-align: justify;
+    float: left;
+    margin-top: 2%;
+    border: 3px dashed darkslateblue;
+    padding: 5px;
+}
+#tekst8{
+    width: 22%;
+    float: right;
+    margin-top: -31%;
+    margin-right: 25%;
+    border: 3px dashed darkslateblue;
+    padding: 5px;
+}
+#tekst9{
+    width: 22%;
+    float: right;
+    margin-top: 2%;
+    border: 3px dashed darkslateblue;
+    padding: 5px;
+}
+#name1{
+   position: absolute;
+   top: 40%;
+   left: 8%;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#name2{
+    position: absolute;
+    top: 90%;
+    left: 6%;
+    text-decoration: underline;
+    font-weight: bold;
+ }
+ #name3{
+    position: absolute;
+    top: 40%;
+    left: 81%;
+    text-decoration: underline;
+    font-weight: bold;
+ }
+ #name4{
+    position: absolute;
+    top: 90%;
+    left: 82%;
+    font-weight: bold;
+    text-decoration: underline;
+
+ }
+
+/*==============================================================================*/
+
+#infoStr{
+    display: none;
+}
+form{
+    margin: 2%;
+    font-weight: bold;
+    margin-top: 8%;
+}
+input{
+    padding: 10px;
+    width: 40%;
+    margin-bottom: 3%;
+    background-color: antiquewhite;
+    border: 2px dashed darkslateblue;
+}
+button{
+    width: 40%;
+    margin-left: 1%;
+    padding: 15px;
+    background-color: antiquewhite;
+    box-shadow: 0px 0px 7px 1px black;
+    border: none;
+    margin-top: 2%;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    color: darkslateblue;
+}
+#infoText{
+    float: right;
+    width: 40%;
+    text-align: justify;
+    margin-top: -48%;
+    margin-right: 3%;
+    border: 4px dashed darkslateblue;
+    padding: 5px;
+}
